@@ -1,7 +1,7 @@
 # Visual Studio Code URL Handler
 A `vscode://` *URL handler* for **[VSCodium](https://vscodium.com/)** on Debian.
 
-Will translate `vscode:extension/url` to `vscodium:extension/url` to open extensions in VSCodium when clicking the install links on [visualstudio Marketplace](https://marketplace.visualstudio.com).
+Will translate `vscode:extension/url` to `vscodium:extension/url` to open extensions in VSCodium when clicking the install links on [Visualstudio Marketplace](https://marketplace.visualstudio.com).
 
 # Installing on Linux (Debian)
 
