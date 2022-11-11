@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+request=$1
+
+# Decode URL (replace vscode with vscodium)
+request=$(echo $request | sed -e "s|vscode:|vscodium:|g")
+
+# Replace &line= with :
+request=${request/&line=/:}
+
+# Launch Visual Studio Codium
+/usr/share/codium/codium --open-url $request
