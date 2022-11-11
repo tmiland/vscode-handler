@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-sudo cp vscode-handler.desktop /usr/share/applications
+sudo rm /usr/share/applications/vscodium-handler.desktop
+sudo cp vscodium-handler.desktop /usr/share/applications
 sudo update-desktop-database
 
-sudo cp vscode-handler /usr/local/bin/
-sudo chmod +x /usr/local/bin/vscode-handler
+sudo rm /usr/local/bin/vscodium-handler
+sudo cp vscodium-handler /usr/local/bin/
+sudo chmod +x /usr/local/bin/vscodium-handler
