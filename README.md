@@ -1,13 +1,25 @@
 # Visual Studio Code URL Handler
 A `vscode://` *URL handler* for **[VSCodium](https://vscodium.com/)** on Debian.
 
+Will translate `vscode:extension/timonwong.shellcheck` to `vscodium:extension/timonwong.shellcheck` to open the extension in VSCodium when clicking the link on [visualstudio Marketplace](https://marketplace.visualstudio.com).
+
 # Installing on Linux (Debian)
 
 #### Steps:
 
-1. clone this repository
-2. run ```sudo bash install``` in console
-3. delete cloned folder
+  1. clone this repository
+```
+git clone https://github.com/tmiland/vscode-handler.git
+```
+  2. run 
+```
+./install
+```
+  3. delete cloned folder
+```
+rm -rf ./vscode-handler
+```
+
 
 #### Notice:
 
